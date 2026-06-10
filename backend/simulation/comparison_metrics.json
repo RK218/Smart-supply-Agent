@@ -1,0 +1,28 @@
+{
+  "smartsupply": {
+    "label": "SmartSupply Agent (LSTM)",
+    "stockout_rate": 1.11,
+    "service_level": 98.89,
+    "total_orders": 7,
+    "ordering_cost": 350.0,
+    "holding_cost": 1688.22,
+    "total_cost": 2038.22,
+    "avg_stock": 3380.4,
+    "forecast_mape": 18.5,
+    "forecast_rmse": 11.126,
+    "forecast_mae": 8.423
+  },
+  "baseline": {
+    "label": "Baseline (Fixed Reorder Point)",
+    "stockout_rate": 21.11,
+    "service_level": 78.89,
+    "total_orders": 21,
+    "ordering_cost": 1050.0,
+    "holding_cost": 175.33,
+    "total_cost": 1225.33,
+    "avg_stock": 320.7,
+    "forecast_mape": null,
+    "forecast_rmse": "N/A",
+    "forecast_mae": "N/A"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "lstm_rmse": 25.004,
+  "lstm_mae": 22.196,
+  "lstm_mape": 101.58,
+  "epochs_trained": 10,
+  "feature_cols": [
+    "sales_scaled",
+    "price",
+    "promo",
+    "is_weekend",
+    "day_of_week",
+    "month",
+    "quarter",
+    "lag_1",
+    "lag_7",
+    "lag_14",
+    "lag_30",
+    "rolling_mean_7",
+    "rolling_mean_14",
+    "rolling_mean_30",
+    "rolling_std_7",
+    "ewm_7"
+  ],
+  "lookback": 30
+}
